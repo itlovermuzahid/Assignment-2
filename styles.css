@@ -3,20 +3,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 #body {
-    width: 1300px;
+    width: 1100px;
     margin: auto;
     background:rgb(8, 7, 7);
     background-repeat: no-repeat;
     color: white;
     font-family: "Inter", sans-serif;
+    
+    
 
 }
 .nav-main{
 
     display: flex;
-    width: 1100px;
+    width: 1080px;
     margin: auto;
     justify-content: space-between;
+    
+    
+    
 
 
 }
@@ -30,7 +35,6 @@
     display: flex;
     border: 1px solid #797777;
     justify-items: center;
-
     justify-content: space-around;
     width: 500px;
     height: 22px;
@@ -63,12 +67,13 @@
 
     background:linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 
-    height: 400px;
-    width: 1100px;
+    height: 500px;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: auto;
     position: relative;
+
 }
 
 .banner-text{
@@ -80,13 +85,15 @@
 
 .banner-h2{
 
-    color: rgb(255, 255, 255);
+color: rgb(255, 255, 255);
 font-family: Inter;
-font-size: 60px;
+font-size: 3.8rem;
 font-weight: 900;
 line-height: 120%;
 letter-spacing: 50%;
 text-align: left;
+margin-bottom: -1px;
+
 }
 
 .banner-span{
@@ -95,14 +102,23 @@ text-align: left;
     font-weight: 400;
 }
 
-.p-text{
 
+.p-text-1{
     color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+   margin-bottom: 50px;}
+.p-text{
+color: rgba(255, 255, 255, 0.5);
 font-family: Inter;
-font-size: 14px;
-font-weight: 300;
+font-size: 1rem;
+font-weight: 100;
 line-height: 24px;
 letter-spacing: 0.5px;
+
 
 }
 
@@ -152,6 +168,7 @@ color: white;
 .banner-img{
 width: 300px;
 
+
 }
 
 .banner-img-div{
@@ -170,7 +187,7 @@ width: 300px;
  border: 1px solid rgba(255, 255, 255, 0.1);
  border-radius: 12px;
 
- /* backdrop-filter: blur(20px); */
+ 
  background: rgba(255, 255, 255, 0.1);
  text-align: center;
  justify-items: center;
@@ -178,8 +195,8 @@ width: 300px;
 
  position: absolute;
  z-index: 10;
- bottom: 177px;
- right: 40px;
+ bottom: 280px;
+ right: 60px;
 }
 
 
@@ -201,8 +218,8 @@ width: 300px;
 justify-items: center;
 position: absolute;
 z-index: 10;
-bottom: -35px;
-right: 350px;
+bottom: 60px;
+right: 400px;
 }
 
 .circle-div{
@@ -215,4 +232,266 @@ right: 350px;
     text-align: center;
     margin-top: 17px;
     margin-right: 17px;
+}
+
+
+/* Habit Section */
+
+.habit-section{
+
+    width: 1100px;
+    margin: auto;
+    height: 490px;
+}
+
+
+.habit-text{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+
+.habit-picture{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    margin-top: 50px;
+    
+    
+}
+
+.habit-picure-selected{
+
+    border:1px solid white;
+    border-radius: 100px;
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+/* Run Section */
+
+.run-section{
+display: flex;
+width: 1100px;
+margin: auto;
+height: 300px;
+border-radius: 18px;
+background: rgb(34, 34, 34);
+align-items: center;
+justify-items: center;
+
+
+
+
+}
+
+
+.run-text{
+
+    margin-left: 35px;
+
+}
+.run-image{
+margin-right: 35px;
+width: 265px;
+height: 230px;
+object-fit: cover;
+object-position: center;
+border-radius: 15px;
+background-size: cover;
+
+
+
+}
+
+
+/* Team Section */
+
+.team-image-section{
+    
+    margin: auto;
+    width: 1100px;
+    height: 600px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    
+    
+
+}
+
+
+.team-images{
+
+ width: 280px;
+height: 250px;
+border: 1px solid rgb(102, 102, 102);
+border-radius: 20px;
+align-items: center;
+justify-content: space-between;
+justify-items: center;
+
+
+}
+
+    
+
+
+.team-text-section{
+
+text-align: center;
+justify-content: center;
+margin-top: 35px;
+
+}
+
+.team-text{
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 40px;
+font-weight: 800;
+line-height: 120%;
+letter-spacing: 0%;
+}
+
+/* Footerrrrrrrr part */
+
+
+.footer-main{
+
+margin: auto;
+height: 300px;
+background: rgb(34, 34, 34);
+margin-top: 60px;
+border-radius: 15px;
+
+
+
+}
+
+.fotter-flex{
+    
+    
+    list-style-type: none;
+    
+
+
+}
+
+
+.footer-main-div{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    gap: 100px;
+
+
+
+    
+}
+
+.footer-side-text{
+
+    margin-left: 40px;
+}
+
+.get-started-div{
+justify-content: center;
+text-align: center;
+justify-items: center;
+margin-right: 40px;
+gap: 40px;
+
+border: 2px solid rebeccapurple;
+
+
+}
+
+
+
+
+
+
+
+
+/* Responsive Website */
+@media  screen and (max-width:576px) {
+ 
+
+    /* Banner section Responsive */
+ .banner-main,  .nav-main  {
+    flex-direction: column;
+    width: auto;
+    
+    
+}
+
+.banner-main{
+    height: auto;
+}
+.banner-text{
+    
+    
+ }
+.banner-h2{
+
+    width: auto;
+    
+}
+    .banner-btn-container{
+        
+    }
+
+
+ .nav-ul{
+
+    display: none;
+    
+ }
+
+ 
+ .banner-350, .banner-500{
+    display:none
+ }
+
+.banner-main{
+
+    
+    
+}
+
+
+
+/* Habit Section Responsive */
+
+
+
+.habit-picture{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    text-align: left;
+    
+
+
+}
+
+.habit-text{
+    text-align: left;
+    justify-content: start;
+    justify-items: left;
+}
 }
